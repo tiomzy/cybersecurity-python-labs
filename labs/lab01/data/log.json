@@ -1,0 +1,214 @@
+[
+    {
+        "event": "login",
+        "user": "alpha_user",
+        "result": "success",
+        "timestamp": "2026-09-24 14:30:27",
+        "args": [
+            "alpha_user",
+            "Secur3Passw0rd!",
+            [
+                {
+                    "username": "alpha_user",
+                    "password_hash": "30286529ba29d463732907d35fdba5febf349f90ad98faca740467bfa7ccc457a6861723ee043bf34b12d53f9c64f66749777bc69156fa96a6360a0585170de4"
+                },
+                {
+                    "username": "beta_tester",
+                    "password_hash": "9081e6e58c48c43e60deb49daeec74152d00027241fb1fd1111f78299f2b54999fd29461acd59a856c42e38ec9177429c0ab1c9404c7f406898c1203d804f9d2"
+                },
+                {
+                    "username": "charlie_dev",
+                    "password_hash": "74665fa6cd554fcdefbd161e51562940de705cbb00dc06db2dfddf471c3df55132bab13a5f8daeb96595a70c2d1aeacd9a686fd39a6f788160a42417667104c0"
+                },
+                {
+                    "username": "delta_admin",
+                    "password_hash": "b30f3fb723837bb7a654d8b96b48c637e6c92b88c6334efaaa70243d7c6ec22f9e4ca2e4f6550dec7737086c1a6b1e6ce51349acc6ae1ae74f5a926bef690121"
+                },
+                {
+                    "username": "echo_analyst",
+                    "password_hash": "383a1c4d79366d0b2a894b06dc7b9f3db87be2508a9b8a141adb849a9f5d05584b0eb8c7b6e9998bd1ccc9826c404029d263f86e7aaf2f513e10c4d93502089d"
+                },
+                {
+                    "username": "foxtrot_ops",
+                    "password_hash": "856a46af87c461e442f064f0bec16046c05dd15e0a08f63ca09f517eaed214a10dfe6003adafbfda9cbffb37ab76f97e57d2a95756d8552f5364aaa7aa9b94fb"
+                },
+                {
+                    "username": "golf_lead",
+                    "password_hash": "655d04829c24f0ff9366b7c4f9c465fd4762eb76993db7bc2519e55340a2c625b024350e152de4274d1c9d45c697439fb83063168d1321c21fcf67a8ffdfeee2"
+                },
+                {
+                    "username": "hotel_guest",
+                    "password_hash": "d3ab6d290257de894d5512fe9e3beb404d4e09874e4b3e9d5e2d440beddab487abfba43ea836ee2dd420b4765841f800715e9c6b4ea75dec8550f50b0d1c00a4"
+                },
+                {
+                    "username": "india_audit",
+                    "password_hash": "3b7c8990539264fbe6f1efe13b641a619bd797922900afa5cd9851381f84e0045fb228b5b58b4d89e54e9d10489aa59309da60610cebaedb939e33b92eb5d164"
+                },
+                {
+                    "username": "juliet_sec",
+                    "password_hash": "9a1ea2ee998f43cb8d5b1d0ba55c9e893803633cbe4422ba79ecf4a237aeae8f009fde7dfde62aa1054fc3cd2ea8fd448861330f093d4f48e2e33c5d58e1c90c"
+                }
+            ]
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "delta_admin",
+        "result": "failure",
+        "timestamp": "2026-09-24 14:30:27",
+        "args": [
+            "delta_admin",
+            "BadPassword123",
+            [
+                {
+                    "username": "alpha_user",
+                    "password_hash": "30286529ba29d463732907d35fdba5febf349f90ad98faca740467bfa7ccc457a6861723ee043bf34b12d53f9c64f66749777bc69156fa96a6360a0585170de4"
+                },
+                {
+                    "username": "beta_tester",
+                    "password_hash": "9081e6e58c48c43e60deb49daeec74152d00027241fb1fd1111f78299f2b54999fd29461acd59a856c42e38ec9177429c0ab1c9404c7f406898c1203d804f9d2"
+                },
+                {
+                    "username": "charlie_dev",
+                    "password_hash": "74665fa6cd554fcdefbd161e51562940de705cbb00dc06db2dfddf471c3df55132bab13a5f8daeb96595a70c2d1aeacd9a686fd39a6f788160a42417667104c0"
+                },
+                {
+                    "username": "delta_admin",
+                    "password_hash": "b30f3fb723837bb7a654d8b96b48c637e6c92b88c6334efaaa70243d7c6ec22f9e4ca2e4f6550dec7737086c1a6b1e6ce51349acc6ae1ae74f5a926bef690121"
+                },
+                {
+                    "username": "echo_analyst",
+                    "password_hash": "383a1c4d79366d0b2a894b06dc7b9f3db87be2508a9b8a141adb849a9f5d05584b0eb8c7b6e9998bd1ccc9826c404029d263f86e7aaf2f513e10c4d93502089d"
+                },
+                {
+                    "username": "foxtrot_ops",
+                    "password_hash": "856a46af87c461e442f064f0bec16046c05dd15e0a08f63ca09f517eaed214a10dfe6003adafbfda9cbffb37ab76f97e57d2a95756d8552f5364aaa7aa9b94fb"
+                },
+                {
+                    "username": "golf_lead",
+                    "password_hash": "655d04829c24f0ff9366b7c4f9c465fd4762eb76993db7bc2519e55340a2c625b024350e152de4274d1c9d45c697439fb83063168d1321c21fcf67a8ffdfeee2"
+                },
+                {
+                    "username": "hotel_guest",
+                    "password_hash": "d3ab6d290257de894d5512fe9e3beb404d4e09874e4b3e9d5e2d440beddab487abfba43ea836ee2dd420b4765841f800715e9c6b4ea75dec8550f50b0d1c00a4"
+                },
+                {
+                    "username": "india_audit",
+                    "password_hash": "3b7c8990539264fbe6f1efe13b641a619bd797922900afa5cd9851381f84e0045fb228b5b58b4d89e54e9d10489aa59309da60610cebaedb939e33b92eb5d164"
+                },
+                {
+                    "username": "juliet_sec",
+                    "password_hash": "9a1ea2ee998f43cb8d5b1d0ba55c9e893803633cbe4422ba79ecf4a237aeae8f009fde7dfde62aa1054fc3cd2ea8fd448861330f093d4f48e2e33c5d58e1c90c"
+                }
+            ]
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "hotel_guest",
+        "result": "success",
+        "timestamp": "2026-09-24 14:30:27",
+        "args": [
+            "hotel_guest",
+            "G@estV1sit0r2026",
+            [
+                {
+                    "username": "alpha_user",
+                    "password_hash": "30286529ba29d463732907d35fdba5febf349f90ad98faca740467bfa7ccc457a6861723ee043bf34b12d53f9c64f66749777bc69156fa96a6360a0585170de4"
+                },
+                {
+                    "username": "beta_tester",
+                    "password_hash": "9081e6e58c48c43e60deb49daeec74152d00027241fb1fd1111f78299f2b54999fd29461acd59a856c42e38ec9177429c0ab1c9404c7f406898c1203d804f9d2"
+                },
+                {
+                    "username": "charlie_dev",
+                    "password_hash": "74665fa6cd554fcdefbd161e51562940de705cbb00dc06db2dfddf471c3df55132bab13a5f8daeb96595a70c2d1aeacd9a686fd39a6f788160a42417667104c0"
+                },
+                {
+                    "username": "delta_admin",
+                    "password_hash": "b30f3fb723837bb7a654d8b96b48c637e6c92b88c6334efaaa70243d7c6ec22f9e4ca2e4f6550dec7737086c1a6b1e6ce51349acc6ae1ae74f5a926bef690121"
+                },
+                {
+                    "username": "echo_analyst",
+                    "password_hash": "383a1c4d79366d0b2a894b06dc7b9f3db87be2508a9b8a141adb849a9f5d05584b0eb8c7b6e9998bd1ccc9826c404029d263f86e7aaf2f513e10c4d93502089d"
+                },
+                {
+                    "username": "foxtrot_ops",
+                    "password_hash": "856a46af87c461e442f064f0bec16046c05dd15e0a08f63ca09f517eaed214a10dfe6003adafbfda9cbffb37ab76f97e57d2a95756d8552f5364aaa7aa9b94fb"
+                },
+                {
+                    "username": "golf_lead",
+                    "password_hash": "655d04829c24f0ff9366b7c4f9c465fd4762eb76993db7bc2519e55340a2c625b024350e152de4274d1c9d45c697439fb83063168d1321c21fcf67a8ffdfeee2"
+                },
+                {
+                    "username": "hotel_guest",
+                    "password_hash": "d3ab6d290257de894d5512fe9e3beb404d4e09874e4b3e9d5e2d440beddab487abfba43ea836ee2dd420b4765841f800715e9c6b4ea75dec8550f50b0d1c00a4"
+                },
+                {
+                    "username": "india_audit",
+                    "password_hash": "3b7c8990539264fbe6f1efe13b641a619bd797922900afa5cd9851381f84e0045fb228b5b58b4d89e54e9d10489aa59309da60610cebaedb939e33b92eb5d164"
+                },
+                {
+                    "username": "juliet_sec",
+                    "password_hash": "9a1ea2ee998f43cb8d5b1d0ba55c9e893803633cbe4422ba79ecf4a237aeae8f009fde7dfde62aa1054fc3cd2ea8fd448861330f093d4f48e2e33c5d58e1c90c"
+                }
+            ]
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "ghost_user",
+        "result": "failure",
+        "timestamp": "2026-09-24 14:30:27",
+        "args": [
+            "ghost_user",
+            "SomeSecret12345!",
+            [
+                {
+                    "username": "alpha_user",
+                    "password_hash": "30286529ba29d463732907d35fdba5febf349f90ad98faca740467bfa7ccc457a6861723ee043bf34b12d53f9c64f66749777bc69156fa96a6360a0585170de4"
+                },
+                {
+                    "username": "beta_tester",
+                    "password_hash": "9081e6e58c48c43e60deb49daeec74152d00027241fb1fd1111f78299f2b54999fd29461acd59a856c42e38ec9177429c0ab1c9404c7f406898c1203d804f9d2"
+                },
+                {
+                    "username": "charlie_dev",
+                    "password_hash": "74665fa6cd554fcdefbd161e51562940de705cbb00dc06db2dfddf471c3df55132bab13a5f8daeb96595a70c2d1aeacd9a686fd39a6f788160a42417667104c0"
+                },
+                {
+                    "username": "delta_admin",
+                    "password_hash": "b30f3fb723837bb7a654d8b96b48c637e6c92b88c6334efaaa70243d7c6ec22f9e4ca2e4f6550dec7737086c1a6b1e6ce51349acc6ae1ae74f5a926bef690121"
+                },
+                {
+                    "username": "echo_analyst",
+                    "password_hash": "383a1c4d79366d0b2a894b06dc7b9f3db87be2508a9b8a141adb849a9f5d05584b0eb8c7b6e9998bd1ccc9826c404029d263f86e7aaf2f513e10c4d93502089d"
+                },
+                {
+                    "username": "foxtrot_ops",
+                    "password_hash": "856a46af87c461e442f064f0bec16046c05dd15e0a08f63ca09f517eaed214a10dfe6003adafbfda9cbffb37ab76f97e57d2a95756d8552f5364aaa7aa9b94fb"
+                },
+                {
+                    "username": "golf_lead",
+                    "password_hash": "655d04829c24f0ff9366b7c4f9c465fd4762eb76993db7bc2519e55340a2c625b024350e152de4274d1c9d45c697439fb83063168d1321c21fcf67a8ffdfeee2"
+                },
+                {
+                    "username": "hotel_guest",
+                    "password_hash": "d3ab6d290257de894d5512fe9e3beb404d4e09874e4b3e9d5e2d440beddab487abfba43ea836ee2dd420b4765841f800715e9c6b4ea75dec8550f50b0d1c00a4"
+                },
+                {
+                    "username": "india_audit",
+                    "password_hash": "3b7c8990539264fbe6f1efe13b641a619bd797922900afa5cd9851381f84e0045fb228b5b58b4d89e54e9d10489aa59309da60610cebaedb939e33b92eb5d164"
+                },
+                {
+                    "username": "juliet_sec",
+                    "password_hash": "9a1ea2ee998f43cb8d5b1d0ba55c9e893803633cbe4422ba79ecf4a237aeae8f009fde7dfde62aa1054fc3cd2ea8fd448861330f093d4f48e2e33c5d58e1c90c"
+                }
+            ]
+        ],
+        "kwargs": {}
+    }
+]
